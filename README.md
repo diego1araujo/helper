@@ -42,4 +42,4 @@ view('index')
 
 ### Additional helpers (doesn't exist in laravel 5 yet):
 
-`group`, `pattern` and `when` (all for routes)
+`group`, `pattern`, `when` (all for routes) and `share` (for view)
