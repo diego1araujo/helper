@@ -4,7 +4,7 @@ Use new Laravel 5 helper in Laravel 4.
 
 ## How-to
 
-Copy and paste `helpers.php` in this repo to laravel `app/` folder or whatever you want
+Copy and paste `helpers.php` file in this repo to laravel `app/` folder or whatever you want
 
 Require it in `bootstrap/start.php`
 
