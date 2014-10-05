@@ -36,8 +36,8 @@ view('index')
 
 ### Helpers:
 
-`get`, `post`, `put`, `patch`, `delete`, `view`
+`get`, `post`, `put`, `patch`, `delete` and `view`
 
-### Additional helpers:
+### Additional helpers (doesn't exist in laravel 5 yet):
 
 `group`, `pattern` and `when` (all for routes)
