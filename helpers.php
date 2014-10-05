@@ -162,3 +162,18 @@ if ( ! function_exists('view'))
 		return $factory->make($view, $data, $mergeData);
 	}
 }
+
+if ( ! function_exists('share'))
+{
+	/**
+	 * Add a piece of shared data to the environment.
+	 *
+	 * @param  string  $key
+	 * @param  mixed   $value
+	 * @return void
+	 */
+	function share($key, $value = null)
+	{
+		app('view')->share($view, $data, $mergeData);
+	}
+}
