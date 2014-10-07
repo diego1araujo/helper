@@ -177,3 +177,25 @@ if ( ! function_exists('share'))
 		app('view')->share($view, $data, $mergeData);
 	}
 }
+
+if ( ! function_exists('redirect'))
+{
+	/**
+	 * Get an instance of the redirector.
+	 *
+	 * @param  string|null  $to
+	 * @param  int  $status
+	 * @return \Illuminate\Routing\Redirector|\Illuminate\Http\RedirectResponse
+	 */
+	function redirect($to = null, $status = 302)
+	{
+		if ( ! is_null($to))
+		{
+			return app('redirect')->to($to, $status);
+		}
+		else
+		{
+			return app('redirect');
+		}
+	}
+}
