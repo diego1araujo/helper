@@ -38,7 +38,7 @@ view('index')
 
 ### Helpers:
 
-`get`, `post`, `put`, `patch`, `delete` and `view`
+`get`, `post`, `put`, `patch`, `delete`, `view` and `redirect`
 
 ### Additional helpers (doesn't exist in laravel 5 yet):
 
